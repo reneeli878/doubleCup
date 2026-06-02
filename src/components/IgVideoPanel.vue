@@ -46,10 +46,11 @@ import { ref, nextTick, onMounted } from 'vue'
 
 const videoPlayer = ref(null)
 
+const baseUrl = import.meta.env.VITE_BASE_URL
 const videos = [
-  '/videos/reel1.mp4',
-  '/videos/reel2.mp4',
-  '/videos/reel3.mp4'
+  `${baseUrl}videos/reel1.mp4`,
+  `${baseUrl}videos/reel2.mp4`,
+  `${baseUrl}videos/reel3.mp4`,
 ]
 
 const currentIndex = ref(0)
