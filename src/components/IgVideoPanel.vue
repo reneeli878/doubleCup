@@ -48,11 +48,10 @@ const videoPlayer = ref(null)
 
 const baseUrl = import.meta.env.VITE_BASE_URL
 const videos = [
-  `${baseUrl}videos/reel1.mp4`,
-  `${baseUrl}videos/reel2.mp4`,
-  `${baseUrl}videos/reel3.mp4`,
+  `${import.meta.env.BASE_URL}videos/reel1.mp4`,
+  `${import.meta.env.BASE_URL}videos/reel2.mp4`,
+  `${import.meta.env.BASE_URL}videos/reel3.mp4`
 ]
-
 const currentIndex = ref(0)
 const currentVideo = ref(videos[0])
 

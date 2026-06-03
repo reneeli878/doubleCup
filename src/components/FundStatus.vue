@@ -158,7 +158,7 @@ onUnmounted(() => {
   flex-direction: column;
   justify-content: center;
 
-  background: #000;
+  
   color: white;
   overflow: hidden;
 

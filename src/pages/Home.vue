@@ -65,13 +65,13 @@ import ArcadeSign from '../components/ArcadeSign.vue';
 }
 
 .top-panel {
-  height: 40%;
+  height: 35%;
   display: flex;
   overflow: hidden;
 }
 
 .bottom-panel {
-  height: 60%;
+  height: 65%;
   overflow: hidden;
 }
 
